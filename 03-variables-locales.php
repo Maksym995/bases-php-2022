@@ -76,7 +76,7 @@ Les noms de variables suivent les mêmes règles de nommage que les autres entit
     echo '$bon-homme =';
     echo "$bon-homme <br>";
 
-    $mabapta = $lulu
+    $mabapta = $lulu;
     echo '$mabapta = ';
     echo "$mabapta <br>";
 
