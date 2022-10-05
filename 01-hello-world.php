@@ -16,7 +16,7 @@
 <body>
     <?php // ouverture de PHP
 
-    // affiche la ligne : echo
+    // affiche la ligne : echo "text" ;
     echo "<h1>Hello World</h1>";
  // fermeture de PHP  ?>
 </body>
