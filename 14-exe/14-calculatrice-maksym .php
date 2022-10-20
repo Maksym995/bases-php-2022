@@ -37,20 +37,20 @@
             $deuxieme= (float) $_POST['second'];
             $choix= $_POST['choix'];
 
-            if ($choix == "+") {
+            if ($choix == "addition") {
                  $result=($premier+$deuxieme);
-                 echo $result;
-            } elseif ($choix == "-") {
+                  
+            } elseif ($choix == "soustraction") {
                  $result=($premier-$deuxieme);
-                 echo $result;
-            } elseif ($choix == "*") {
+                  
+            } elseif ($choix == "multiplication") {
                  $result=($premier*$deuxieme);
-                 echo $result;
-            } elseif ($second == 0) {
-                 echo "Vous ne pouvez pas diviser par 0";
-            } elseif ($choix == "/"){
+                  
+            } elseif ($deuxieme == 0) {
+                  "Vous ne pouvez pas diviser par 0";
+            } elseif ($choix == "division"){
                  $result=($premier/$deuxieme);
-                 echo $result;
+                 
             }
 
         if (isset($choix)){
